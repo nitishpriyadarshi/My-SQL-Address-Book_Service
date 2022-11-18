@@ -1,6 +1,5 @@
 create database AddressBookService;
 use AddressBookService;
-use AddressBookService;
 create table AddressBook (
 	firstName varchar(20) not null,
     lastName varchar(20) not null,
@@ -10,4 +9,3 @@ create table AddressBook (
     zip int not null,
     phoneNumber double not null,
     email varchar(100) not null);
-
