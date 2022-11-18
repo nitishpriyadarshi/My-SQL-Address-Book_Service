@@ -9,8 +9,7 @@ create table AddressBook (
     zip int not null,
     phoneNumber double not null,
     email varchar(100) not null);
-    
-    insert into AddressBook (firstName, lastName, address, city, state, zip, phoneNumber, email)
+     insert into AddressBook (firstName, lastName, address, city, state, zip, phoneNumber, email)
     values ('Ullas','Kumar k','Hebbal','Bangalore','Karnataka',564131,5454874865,'uk00000000@gmail.com' ),
     ('Nitish','Priyadarshi','MG Road','Gurgaon','Haryana',345641,18468489745,'np000000@gmail.com'),
     ('Sayyed','Mutallib','Food street','Sagar','Madhya Pradesh',1245678945, 236546,'sm00000000000@gmail.com'),
